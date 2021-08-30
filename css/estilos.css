@@ -1,0 +1,128 @@
+/* ----------- MENU -----------  */
+.log {
+    margin-left: 40%;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.icon1 {
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 60%;
+    font-size: 25px;
+    color: #bd0c6f;
+}
+
+.icon2 {
+    font-size: 35px;
+    color: #bd0c6f;
+    margin-top: auto;
+}
+
+/* ---------- CARD PRINCIPAL -----------  */
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 1200px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+}
+
+.linha {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 5%;
+    border-top: 2px solid #000000;
+}
+
+.card-text1 {
+    margin-top: 130px;
+    font-size: 20px;
+}
+
+.card-title {
+    font-size: 100px;
+    color:  #961d82;
+}
+
+.card-text2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* ---------- CARD 2° -----------  */
+
+.container-card2 {
+    margin-left: 150px;
+}
+.title-music {
+    margin-top: 70px;
+    margin-left: 24%;
+    font-size: 30px;
+    color:  #961d82;
+}
+
+.card-text-desc {
+    margin-left: 27%;
+}
+
+.campo-desc {
+    width: 50%;
+}
+
+.button {
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+.border {
+    border-radius: 20px;
+}
+
+.col2 {
+    margin-top: 40px;
+}
+
+.col3 {
+    margin-top: 40px;
+}
+
+.col4 {
+    margin-top: 40px;
+}
+
+.btn-music {
+    background-color: #961d82 !important;
+    color: #fff !important;
+    width: 40%;
+    height: 10%;
+    font-size: 150%!important;
+}
+
+.btn-music-verde {
+    background-color: #49bab6 !important;
+    color: #fff !important;
+    width: 40%;
+    height: 10%;
+    font-size: 150%!important;
+}
+
+.btn-musica-navbar {
+    background-color: #961d82 !important;
+    color: #fff !important;
+    font-size: 100%!important;
+    margin-right: 8%;
+}
+
+form {
+    margin-top: 13%;
+    margin-left: 15%;
+}

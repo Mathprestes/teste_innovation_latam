@@ -1,0 +1,202 @@
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script type="text/javascript" src="/js/js.js"></script>
+    <title> Desenvolvido por Matheus Gouveia Prestes </title>
+</head>
+
+<body style="background-color: #ececec;height: 150%;">
+
+  <!-- Menu -->
+    <nav class="navbar navbar" style="background-color:#000000;padding-bottom: 1%;">
+      <div class="container">
+          
+        <div class="navbar-brand">
+          <img src="/img/logo.png" width="200" height="50" class="log align-text-top">
+        </div>
+        
+          <i class="icon1 fas fa-list-music"> </i>
+          <h1 class="icon2" id="counter-label"> 0 </h1>
+          <button class="btn btn-musica-navbar" onclick="resetCounter()"> Cancelar </button>
+      </div>
+  </nav>
+
+  <!-- CARD PRINCIPAL -->
+  <div class="container-card">
+
+    <div class="box text-center mt-5">
+
+        <b> <h1 class="card-text1"> O seu portal de Musicas </h1> </b>
+        <h1 class="card-title mb-4"> Music Collector </h1>
+        <b> <h1 class="card-text2"> Em qualquer hora, em qualquer lugar </h1> </b>
+        
+        <hr class="linha">
+       
+    </div>
+  </div>
+  
+  <!-- 2° CARD -->
+  <div class="container-card2">
+      
+      <div class="col2 col-md-7 offset-md-2">
+        <div class="border bg-white d-lg-flex">
+
+          <div class="align-items-center m-5">
+            <img src="/img/img1.jpg">
+          </div>
+
+          <!-- titulo da musica / botoes -->
+          <div class="campo-desc">
+
+            <h4 class="title-music"> Pray You Catch Me </h4>
+            <b> <h4 class="card-text-desc mt-5"> Beyonce - Lemonade </h4> </b>
+
+            <form>
+
+              <button type="button" style="margin-right: 15px;" class="btn btn-music" data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="fab fa-itunes-note"> Play </i> </button>
+              <button type="button" class="btn btn-music fas fa-check" onclick="mostrar(this);incrementClick()"> Save </button> 
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+               
+                <div class="modal-header">
+                  <h5 class="modal-title my-3" id="exampleModalLabel" style="margin-left: 35%;color:  #961d82;"> Pray You Catch Me </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body my-3" style="margin-left: 35%;"> Beyonce - Lemonade </div>
+                
+                <div class="modal-footer my-3" style="margin-right: 8%;">
+                  <button type="button" style="margin-right: 15px;" class="btn btn-music-verde"> <i class="fas fa-stop"> Stop </i> </button>
+                  <button type="button" class="btn btn-music"> <i class="fas fa-play-circle"> Play </i> </button>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- 3° CARD -->
+  <div class="container-card2">
+      
+    <div class="col3 col-md-7 offset-md-2">
+      <div class="border bg-white d-lg-flex">
+
+        <div class="align-items-center m-5">
+          <img src="/img/img1.jpg">
+        </div>
+
+        <!-- titulo da musica / botoes -->
+        <div class="campo-desc">
+
+          <h4 class="title-music" style="margin-left:38%;"> Hold Up </h4>
+          <b> <h4 class="card-text-desc mt-5"> Beyonce - Lemonade </h4> </b>
+
+          <form>
+
+              <button type="button" style="margin-right: 15px;" class="btn btn-music" data-bs-toggle="modal" data-bs-target="#exampleModal3"> <i class="fab fa-itunes-note"> Play </i> </button>
+              <button type="button" class="btn btn-music fas fa-check" onclick="mostrar(this);incrementClick()"> Save </button> 
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+               
+                <div class="modal-header">
+                  <h5 class="modal-title my-3" id="exampleModalLabel" style="margin-left: 45%;color:  #961d82;"> Hold Up </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body my-3" style="margin-left: 35%;"> Beyonce - Lemonade </div>
+                
+                <div class="modal-footer my-3" style="margin-right: 8%;">
+                  <button type="button" style="margin-right: 15px;" class="btn btn-music-verde"> <i class="fas fa-stop"> Stop </i> </button>
+                  <button type="button" class="btn btn-music"> <i class="fas fa-play-circle"> Play </i> </button>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4° CARD -->
+    <div class="container-card2 mb-5">
+      
+      <div class="col4 col-md-7 offset-md-2">
+        <div class="border bg-white d-lg-flex">
+  
+          <div class="align-items-center m-5">
+            <img src="/img/img1.jpg">
+          </div>
+  
+          <!-- titulo da musica / botoes -->
+          <div class="campo-desc">
+  
+            <h4 class="title-music" style="margin-left:38%;"> All Party </h4>
+            <b> <h4 class="card-text-desc mt-5"> Beyonce - Lemonade </h4> </b>
+  
+            <form>
+
+              <button type="button" style="margin-right: 15px;" class="btn btn-music" data-bs-toggle="modal" data-bs-target="#exampleModal4"> <i class="fab fa-itunes-note"> Play </i> </button>
+              <button type="button" class="btn btn-music fas fa-check" onclick="mostrar(this);incrementClick()"> Save </button> 
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+               
+                <div class="modal-header">
+                  <h5 class="modal-title my-3" id="exampleModalLabel" style="margin-left: 45%;color:  #961d82;"> All Party </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body my-3" style="margin-left: 35%;"> Beyonce - Lemonade </div>
+                
+                <div class="modal-footer my-3" style="margin-right: 8%;">
+                  <button type="button" class="btn btn-music-verde" style="margin-right: 15px;"> <i class="fas fa-stop"> Stop </i> </button>
+                  <button type="button" class="btn btn-music"> <i class="fas fa-play-circle"> Play </i> </button>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <nav class="navbar" style="background-color:#000000;padding-bottom: 1%;">
+        <div class="navbar-brand">
+          <img src="/img/logo.png" width="200" height="50" class="log align-text-top">
+        </div>
+
+        <h3 style="margin-right:38%;color: #645e5e"> Desenvolvido por Matheus Prestes </h3>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</body>
+</html>
